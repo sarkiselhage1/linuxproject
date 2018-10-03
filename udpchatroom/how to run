@@ -1,0 +1,12 @@
+client : $ cc udpclient.c
+	 $ ./a.out
+
+run :  Socket created..
+       chat start ..
+
+server : $ cc udpserver.c
+	 $ ./a.out
+
+run server : Socket created
+	     Socket binded
+chat dialogue start, when server write exit, client side close
